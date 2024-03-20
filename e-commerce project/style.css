@@ -1,0 +1,417 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  background-color: rgb(227, 210, 210);
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: rgb(5, 7, 8);
+  color: rgba(255, 192, 203, 0.869);
+}
+
+.navbarlink {
+  display: flex;
+  column-gap: 20px;
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+.navbarlinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarlinks a:hover {
+  text-decoration: underline;
+  color: pink;
+}
+
+.fashion {
+  top: 150px;
+  align-items: center;
+  display: inline-block;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 180px;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 35%;
+  padding: 10px;
+}
+
+img {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+}
+
+.side-navbar {
+  background-color: black;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 2s;
+
+}
+
+.side-navbar-link {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  font-size: x-large;
+  align-items: center;
+}
+
+.side-navbar-link a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.container {
+  padding: 0px;
+  margin: 100px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first {
+  display: inline-flex;
+
+}
+
+.second {
+  display: inline-flex;
+  font-size: x-large;
+  margin-right: -90px;
+}
+
+
+@media screen and (max-width:700px) {
+  .fashion img {
+    display: none
+  }
+}
+
+.dress {
+  margin: 10px;
+  padding-right: 50px;
+  display: inline-block;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  padding-right: 100px;
+  justify-content: space-between;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+
+}
+
+.button {
+  padding: 10px 20px 15px 25px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: large;
+  top: -120px;
+  position: relative;
+}
+
+.button a:hover {
+  color: rgba(9, 8, 8, 0.689);
+}
+
+.footer {
+  background-color: rgb(24, 14, 14);
+  color: pink;
+  margin-top: 30px;
+  padding: 10px;
+  height: 90%;
+}
+
+.footer h3 {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+
+}
+
+#one,
+#two,
+#three,
+#four {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 90px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.icons {
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header2 {
+  right: 20%;
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+.search {
+  padding-right: 100px;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.navbarlink2 {
+  display: inline-flex;
+  column-gap: 20px;
+  font-size: 20px;
+  font-weight: 300px;
+  padding-left: 320px;
+}
+
+.navbarlinks2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarlinks2 a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.header1 {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.header2 input {
+  border: none;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.header2 input:focus {
+  outline: none;
+}
+
+.container3,
+.container4,
+.container5 {
+  border: black solid 1px;
+  display: inline-block;
+  background-color: rgb(169, 163, 163);
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+}
+
+.footerr {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.head {
+  background-color: black;
+  color: pink;
+  width: 100%;
+  height: 120px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.head h1 {
+  padding-top: 40px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.navbar-link2 {
+  display: inline-flex;
+  column-gap: 20px;
+  font-size: 20px;
+  font-weight: 300px;
+  padding-left: 320px;
+}
+
+.navbarlinks3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarlinks3 a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.contactform {
+  align-items: center;
+  display: inline-flex;
+  align-content: center;
+  background-color: black;
+  margin-right: 100px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 350px;
+  border-radius: 12px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.contactform input {
+  padding-top: 10px;
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.contactform textarea,
+#submit {
+  border-radius: 10px;
+}
+
+.contact {
+  color: white;
+  font-size: x-large;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+#submit {
+  padding-left: 80px;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.header3,
+.topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: rgb(5, 7, 8);
+  color: rgba(255, 192, 203, 0.869);
+}
+
+.newaarrive {
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.most {
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.foot {
+  background-color: black;
+  padding: 70px;
+  margin-top: 20px;
+}
+
+.foot p {
+  color: white;
+}
+
+.sub {
+  margin: 20px;
+  padding: 15px;
+  background-color: red;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  font-size: large;
+}
+
+.login {
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: pink;
+}
+
+.loginpage {
+  padding: 100px;
+  padding-right: 250px;
+  padding-left: 500px;
+  display: block;
+}
+
+.loginpage h3 {
+  padding-bottom: 20px;
+}
+
+.form {
+  font-size: large;
+}
+
+.form input {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.loginpage p {
+  color: brown;
+}
+
+#submitk {
+  margin-left: 80px;
+  margin-top: 15px;
+}
